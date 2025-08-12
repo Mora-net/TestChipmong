@@ -23,16 +23,16 @@ A Spring Boot application to manage employee records with CRUD operations using 
    ```bash
    git clone https://github.com/Mora-net/TestChipmong.git
    cd employeemanagement
-Build the project:
+2.Build the project:
 
 ```bash
 mvn clean package
 Run the application:
 mvn spring-boot:run
-2. Run the application:
+3. Run the application:
 ```bash
 mvn spring-boot:run
-3. Access the app:
+4. Access the app:
 
 API base URL: http://localhost:8080
 
