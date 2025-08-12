@@ -1,0 +1,19 @@
+1. @Component is a generic Spring-managed bean, @Service is a specialized @Component for service layer classes, 
+   and @Repository is a specialized @Component for the data access layer that also translates persistence exceptions 
+   into Spring’s DataAccessException.
+
+2. Spring Boot auto-configuration automatically sets up beans and configurations based on the dependencies on the classpath, 
+   such as configuring an embedded Tomcat and MVC components when spring-boot-starter-web is present, and can be customized 
+   via properties or conditional annotations.
+
+3. MyBatis is a SQL mapper where you write SQL manually, giving full control over queries, while Hibernate is an ORM that maps Java 
+   objects to database tables and auto-generates SQL, making it easier for CRUD but less direct for complex queries.
+
+4. Spring Boot handles dependency injection through the Spring IoC container, providing beans via constructor, setter, or field injection,
+    with dependencies injected automatically by @Autowired or constructor parameters.
+
+5. CORS (Cross-Origin Resource Sharing) controls browser requests from different domains; in Spring Boot, it can be enabled using @CrossOrigin on 
+    controllers or globally via WebMvcConfigurer with addCorsMappings.
+
+6. To secure a REST API, use authentication (e.g., JWT, OAuth2), authorization, HTTPS, input validation, role-based access control, and Spring Security
+   configuration to restrict endpoint access and protect against attacks.
