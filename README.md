@@ -162,7 +162,7 @@ Bootstrap 5 — Styling and layout
 
 ESLint — Code linting
 
- ```markdown
+ ```
 ## 4. Screenshots
 
 ### Task List
