@@ -1,22 +1,25 @@
-# Employee Management System
-
-A Spring Boot application to manage Employee records with CRUD operations using MyBatis and H2 in-memory database.
+# Employee Management System & Task Manager Frontend
 
 ---
 
-## 1. Setup Instructions
+## Employee Management System
 
-### Prerequisites
+A Spring Boot application to manage employee records with CRUD operations using MyBatis and H2 in-memory database.
 
-- Java 17 or higher
-- Maven 3.6+
-- IDE (e.g., VS Code, IntelliJ IDEA)
-- Postman or curl for API testing
+---
 
-### Steps to Run
+### 1. Setup Instructions
 
-. Clone the repository: 
+#### Prerequisites
 
+- Java 17 or higher  
+- Maven 3.6+  
+- IDE (e.g., VS Code, IntelliJ IDEA)  
+- Postman or curl for API testing  
+
+#### Steps to Run
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/Mora-net/TestChipmong.git
    cd employeemanagement
@@ -25,13 +28,12 @@ Build the project:
 bash: 
 mvn clean package
 Run the application:
-
 bash: 
 mvn spring-boot:run
-1. Run the application:
+2. Run the application:
 bash: 
 mvn spring-boot:run
-2. Access the app:
+3. Access the app:
 
 API base URL: http://localhost:8080
 
