@@ -15,11 +15,11 @@ A Spring Boot application to manage Employee records with CRUD operations using 
 
 ### Steps to Run
 
-. Clone the repository:
+. Clone the repository: 
 
    ```bash
-   git clone <>
-   cd <employeemanagement>
+   git clone https://github.com/Mora-net/TestChipmong.git
+   cd employeemanagement
 Build the project:
 
 bash: 
@@ -126,8 +126,8 @@ This app allows you to:
 
 ### 2. Clone the repository
 ```bash
-git clone 
-cd <task-manager-frontend>
+git clone https://github.com/Mora-net/TestChipmong.git
+cd task-manager-frontend
 3. Install dependencies
 bash: 
 npm install
