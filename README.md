@@ -128,10 +128,11 @@ This app allows you to:
    ```bash
     axios.defaults.baseURL = "http://localhost:3000/api";
 4. Run the app
-```bash
-npm run dev
-The app will be available at: http://localhost:5173
+   ```bash
+   npm run dev
+   
 ## 2. API Endpoints
+
 Method	Endpoint	Description	Request Body Example
 GET	/tasks	Get all tasks	None
 GET	/tasks/:id	Get single task	None
