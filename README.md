@@ -115,7 +115,7 @@ This app allows you to:
 - [Node.js](https://nodejs.org/) (v18+ recommended)
 - npm (comes with Node.js)
 - A running backend API (see API Endpoints section)
-#### Steps to Run
+### Steps to Run
 1. Clone the repository
    ```bash
    git clone https://github.com/Mora-net/TestChipmong.git
@@ -125,10 +125,9 @@ This app allows you to:
     npm install
 3. Configure API URLOpen src/axios.js (or wherever Axios is configured)
    Update the base URL to point to your backend API:
-   javascript:
    ```bash
-axios.defaults.baseURL = "http://localhost:3000/api";
-5.Run the app
+    axios.defaults.baseURL = "http://localhost:3000/api";
+4. Run the app
 ```bash
 npm run dev
 The app will be available at: http://localhost:5173
