@@ -27,18 +27,14 @@ A Spring Boot application to manage employee records with CRUD operations using 
    ```bash
    mvn clean package
 3. Run the application:
-   ```bash
-   mvn spring-boot:run
+   ```bash mvn spring-boot:run
 4. Access the app:
-   API base URL: http://localhost:8080
+API base URL: http://localhost:8080
    
-   H2 Console: http://localhost:8080/h2-console
-   
-   JDBC URL: jdbc:h2:mem:testdb
-   
-   User: sa
-   
-   Password: (leave blank)
+H2 Console: http://localhost:8080/h2-console
+JDBC URL: jdbc:h2:mem:testdb
+User: sa
+Password: (leave blank)
 
 ## 2. API Endpoints
 
