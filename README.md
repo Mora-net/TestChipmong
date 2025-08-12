@@ -26,9 +26,9 @@ A Spring Boot application to manage employee records with CRUD operations using 
 2. Build the project:
    ```bash
    mvn clean package
-3. Run the application:
+4. Run the application:
    ```bashmvn spring-boot:run
-4.  cess the app:
+5.  cess the app:
 API base URL: http://localhost:8080
    
 H2 Console: http://localhost:8080/h2-console
@@ -60,7 +60,6 @@ Description: Retrieves a list of all employees.
 Method: GET
 URL: /employees/{id}
 Description: Retrieves a single employee by their ID.
-
 
 4. Update an Employee
 Method: PUT
