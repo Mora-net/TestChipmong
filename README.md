@@ -26,7 +26,7 @@ A Spring Boot application to manage employee records with CRUD operations using 
 2. Build the project:
    ```bash
    mvn clean package
-4. Run the application:
+3. Run the application:
    ```bashmvn spring-boot:run
 5.  cess the app:
 API base URL: http://localhost:8080
