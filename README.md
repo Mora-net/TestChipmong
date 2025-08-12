@@ -24,23 +24,21 @@ A Spring Boot application to manage employee records with CRUD operations using 
    git clone https://github.com/Mora-net/TestChipmong.git
    cd employeemanagement
 2.Build the project:
-    ```bash
+   ```bash
    mvn clean package
-   
 3. Run the application:
    ```bash
    mvn spring-boot:run
 4. Access the app:
-
-API base URL: http://localhost:8080
-
-H2 Console: http://localhost:8080/h2-console
-
-JDBC URL: jdbc:h2:mem:testdb
-
-User: sa
-
-Password: (leave blank)
+   API base URL: http://localhost:8080
+   
+   H2 Console: http://localhost:8080/h2-console
+   
+   JDBC URL: jdbc:h2:mem:testdb
+   
+   User: sa
+   
+   Password: (leave blank)
 
 ## 2. API Endpoints
 
