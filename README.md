@@ -25,13 +25,12 @@ A Spring Boot application to manage employee records with CRUD operations using 
    cd employeemanagement
 Build the project:
 
-bash: 
+```bash
 mvn clean package
 Run the application:
-bash: 
 mvn spring-boot:run
 2. Run the application:
-bash: 
+```bash
 mvn spring-boot:run
 3. Access the app:
 
@@ -131,7 +130,6 @@ This app allows you to:
 git clone https://github.com/Mora-net/TestChipmong.git
 cd task-manager-frontend
 3. Install dependencies
-bash: 
 npm install
 4. Configure API URL
 Open src/axios.js (or wherever Axios is configured)
