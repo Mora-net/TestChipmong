@@ -107,7 +107,7 @@ Build automation and dependency management tool, which compiles the project, run
 Used to validate incoming data in API requests with annotations like @Valid and constraints such as @NotNull.
 ---
 
-# Task Manager Frontend
+## Task Manager Frontend
 
 A simple Vue.js  application for managing tasks.  
 This app allows you to:
