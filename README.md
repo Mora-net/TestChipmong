@@ -162,14 +162,14 @@ ESLint — Code linting
 
 ## 4. Screenshots
 
- Task List: 
-Form Create
-After Create List
-Form Update
-After Update List
-API
+Task List: https://github.com/Mora-net/TestChipmong/blob/main/task-manager-frontend/screenshots/ListTask.png
+Form Create: https://github.com/Mora-net/TestChipmong/blob/main/task-manager-frontend/screenshots/Create%20Task.png
+After Create List : https://github.com/Mora-net/TestChipmong/blob/main/task-manager-frontend/screenshots/List%20After%20Create.png
+Form Update : https://github.com/Mora-net/TestChipmong/blob/main/task-manager-frontend/screenshots/Update%20Task.png
+After Update List : https://github.com/Mora-net/TestChipmong/blob/main/task-manager-frontend/screenshots/List%20After%20Update.png
+API : https://github.com/Mora-net/TestChipmong/blob/main/task-manager-frontend/screenshots/BackEnd%20(API).png
 
-<img width="592" height="382" alt="image" src="https://github.com/user-attachments/assets/88596a5c-bbac-4170-8713-f94e201fbe78" />
+
 
 
 
