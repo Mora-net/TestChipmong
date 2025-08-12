@@ -112,27 +112,27 @@ This app allows you to:
 
 ## 1. Setup Instructions
 
-### 1. Prerequisites
+###  Prerequisites
 - [Node.js](https://nodejs.org/) (v18+ recommended)
 - npm (comes with Node.js)
 - A running backend API (see API Endpoints section)
-
-### 2. Clone the repository
-```bash
-git clone https://github.com/Mora-net/TestChipmong.git
-cd task-manager-frontend
-3. Install dependencies
-npm install
-4. Configure API URL
-Open src/axios.js (or wherever Axios is configured)
-
-Update the base URL to point to your backend API:
-javascript:
+#### Steps to Run
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Mora-net/TestChipmong.git
+   cd task-manager-frontend
+2. Install dependencies
+   ```bash
+    npm install
+3. Configure API URLOpen src/axios.js (or wherever Axios is configured)
+   Update the base URL to point to your backend API:
+   javascript:
+   ```bash
 axios.defaults.baseURL = "http://localhost:3000/api";
-5. Run the app
+5.Run the app
+```bash
 npm run dev
 The app will be available at: http://localhost:5173
-
 ## 2. API Endpoints
 Method	Endpoint	Description	Request Body Example
 GET	/tasks	Get all tasks	None
