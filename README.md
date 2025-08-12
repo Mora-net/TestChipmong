@@ -129,7 +129,7 @@ This app allows you to:
     axios.defaults.baseURL = "http://localhost:3000/api";
 4. Run the app
    ```bash
-   npm run dev
+     npm run dev
    
 ## 2. API Endpoints
 
